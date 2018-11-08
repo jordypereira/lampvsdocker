@@ -1,5 +1,16 @@
 {
+  "name": "lamp_vs_docker",
+  "version": "1.0.0",
+  "description": "LAMP VS Docker",
+  "main": "index.js",
+  "repository": "https://github.com/perjor/lampvsdocker",
+  "author": "Jordy Pereira",
+  "license": "MIT",
   "devDependencies": {
     "vuepress": "^0.14.4"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   }
 }

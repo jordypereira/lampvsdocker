@@ -53,6 +53,3 @@ php -r "unlink('composer-setup.php');"
 ```
 
 To add it to our bin we use `mv composer.phar /usr/local/bin/composer`
-
-- sudo apt install php-zip
-- composer global require "laravel/installer"

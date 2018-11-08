@@ -53,3 +53,10 @@ php -r "unlink('composer-setup.php');"
 ```
 
 To add it to our bin we use `mv composer.phar /usr/local/bin/composer`
+
+Now just install laravel and add the Vhost.
+
+## Conclusion
+
+The regular LAMP way still works but is not always as easy to configure because of Ubuntu updates etc, while docker images run their own version of ubuntu where everything will always work. Docker makes it easier to dispose of a website and you can use docker without a VM aswell.
+Docker is more complex but if Devilbox keeps its images updated then it's a great way to get started really fast.
